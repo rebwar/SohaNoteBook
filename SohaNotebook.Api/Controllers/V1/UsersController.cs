@@ -7,10 +7,11 @@ using SohaNotebook.DataService.IConfiguration;
 using SohaNotebook.Entities.DbSet;
 using SohaNotebook.Entities.Dtos.Incoming;
 
-namespace SohaNotebook.Api.Controllers
+namespace SohaNotebook.Api.Controllers.v1
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/v{version:apiVersion}/[controller]")]
+    [ApiVersion("1.0")]
     public class UsersController : ControllerBase
     {
 

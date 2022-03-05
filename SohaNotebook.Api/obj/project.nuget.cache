@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kZOFiV4P1RfGWyWtRFVWwRiuls3iWoOD65L2q6qrDXaTinYbyzmuEH7c5nW+fpnOWXoX30Y9iagAMXrJWRdQlQ==",
+  "dgSpecHash": "f+SS8f7h4lmgsgpktfgFarP1DkW1NQpOnPWhxbW8J7q1+V4/rTFTV4CgCp2CqPOVPNlZpF/I5QgU/d2leB55jw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Rebwa\\Desktop\\Projects\\SohaNoteBook\\SohaNotebook.Api\\SohaNotebook.Api.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\Rebwa\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.14\\microsoft.aspnetcore.cryptography.internal.5.0.14.nupkg.sha512",
     "C:\\Users\\Rebwa\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.14\\microsoft.aspnetcore.cryptography.keyderivation.5.0.14.nupkg.sha512",
     "C:\\Users\\Rebwa\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\5.0.14\\microsoft.aspnetcore.identity.entityframeworkcore.5.0.14.nupkg.sha512",
+    "C:\\Users\\Rebwa\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.0.0\\microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
     "C:\\Users\\Rebwa\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Rebwa\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.14\\microsoft.data.sqlite.core.5.0.14.nupkg.sha512",
     "C:\\Users\\Rebwa\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",

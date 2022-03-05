@@ -63,3 +63,4 @@ C:\Users\Rebwa\Desktop\Projects\SohaNoteBook\SohaNotebook.Api\obj\Debug\net5.0\S
 C:\Users\Rebwa\Desktop\Projects\SohaNoteBook\SohaNotebook.Api\obj\Debug\net5.0\ref\SohaNotebook.Api.dll
 C:\Users\Rebwa\Desktop\Projects\SohaNoteBook\SohaNotebook.Api\bin\Debug\net5.0\Humanizer.dll
 C:\Users\Rebwa\Desktop\Projects\SohaNoteBook\SohaNotebook.Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Rebwa\Desktop\Projects\SohaNoteBook\SohaNotebook.Api\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Versioning.dll

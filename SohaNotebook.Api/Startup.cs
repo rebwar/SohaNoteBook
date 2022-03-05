@@ -13,6 +13,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using SohaNotebook.DataService.Data;
+using SohaNotebook.DataService.IConfiguration;
 
 namespace SohaNotebook.Api
 {
@@ -28,8 +29,8 @@ namespace SohaNotebook.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
-            services.AddDbContext<AppDbContext>(options=>
+            services.AddScoped<IUowRepository, UnitOfWork>();
+            services.AddDbContext<AppDbContext>(options =>
             options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
             services.AddControllers();
             services.AddSwaggerGen(c =>

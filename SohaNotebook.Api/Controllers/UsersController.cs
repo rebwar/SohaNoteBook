@@ -13,14 +13,13 @@ namespace SohaNotebook.Api.Controllers
     [Route("api/[controller]")]
     public class UsersController : ControllerBase
     {
-        //private readonly AppDbContext _context;
+
         private readonly IUowRepository _unitOfWork;
 
-        public UsersController(IUowRepository unitOfWork)//AppDbContext context)
+        public UsersController(IUowRepository unitOfWork)
         {
             _unitOfWork = unitOfWork;
 
-            // _context = context;
         }
 
         [HttpPost]
@@ -37,8 +36,8 @@ namespace SohaNotebook.Api.Controllers
                     Phone = userDto.Phone,
                     DateOfBirth = userDto.DateOfBirth,
                 };
-               await _unitOfWork.UserRepository.Add(user);
-               await _unitOfWork.CompleteAsync();
+                await _unitOfWork.UserRepository.Add(user);
+                await _unitOfWork.CompleteAsync();
                 return CreatedAtAction(nameof(GetUser), new { id = user.Id }, user);
             }
             return BadRequest();
@@ -47,18 +46,19 @@ namespace SohaNotebook.Api.Controllers
         [HttpGet]
         public async Task<IActionResult> GetUsers()
         {
-           // var users = _context.Users.Where(c => c.Status == 1).ToList();
-           var users=await _unitOfWork.UserRepository.GetAll();
+            var users = await _unitOfWork.UserRepository.GetAll();
             return Ok(users);
         }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetUser(Guid id)
         {
-            var user =await _unitOfWork.UserRepository.Get(id);
+            var user = await _unitOfWork.UserRepository.Get(id);
             if (user != null)
                 return Ok(user);
             return NotFound();
         }
+
+
     }
 }

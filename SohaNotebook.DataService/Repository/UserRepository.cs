@@ -35,12 +35,13 @@ namespace SohaNotebook.DataService.Repository
 
         public override async Task<bool> Upsert(User entity)
         {
-            var result=await _context.Users.SingleOrDefaultAsync(c=>c.Id==entity.Id);
-            if (result is not null){
-                User user
+            var result = await _context.Users.SingleOrDefaultAsync(c => c.Id == entity.Id);
+            if (result is not null)
+            {
+                result = entity;
+                return true;
             }
-
-            return base.Upsert(entity);
+            return false;
         }
     }
 }

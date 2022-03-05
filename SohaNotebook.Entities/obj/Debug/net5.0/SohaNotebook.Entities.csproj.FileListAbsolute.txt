@@ -1,0 +1,12 @@
+C:\Users\Rebwa\Desktop\Projects\SohaNoteBook\SohaNotebook.Entities\bin\Debug\net5.0\SohaNotebook.Entities.deps.json
+C:\Users\Rebwa\Desktop\Projects\SohaNoteBook\SohaNotebook.Entities\bin\Debug\net5.0\SohaNotebook.Entities.dll
+C:\Users\Rebwa\Desktop\Projects\SohaNoteBook\SohaNotebook.Entities\bin\Debug\net5.0\SohaNotebook.Entities.pdb
+C:\Users\Rebwa\Desktop\Projects\SohaNoteBook\SohaNotebook.Entities\obj\Debug\net5.0\SohaNotebook.Entities.csproj.AssemblyReference.cache
+C:\Users\Rebwa\Desktop\Projects\SohaNoteBook\SohaNotebook.Entities\obj\Debug\net5.0\SohaNotebook.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rebwa\Desktop\Projects\SohaNoteBook\SohaNotebook.Entities\obj\Debug\net5.0\SohaNotebook.Entities.AssemblyInfoInputs.cache
+C:\Users\Rebwa\Desktop\Projects\SohaNoteBook\SohaNotebook.Entities\obj\Debug\net5.0\SohaNotebook.Entities.AssemblyInfo.cs
+C:\Users\Rebwa\Desktop\Projects\SohaNoteBook\SohaNotebook.Entities\obj\Debug\net5.0\SohaNotebook.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Rebwa\Desktop\Projects\SohaNoteBook\SohaNotebook.Entities\obj\Debug\net5.0\SohaNotebook.Entities.dll
+C:\Users\Rebwa\Desktop\Projects\SohaNoteBook\SohaNotebook.Entities\obj\Debug\net5.0\refint\SohaNotebook.Entities.dll
+C:\Users\Rebwa\Desktop\Projects\SohaNoteBook\SohaNotebook.Entities\obj\Debug\net5.0\SohaNotebook.Entities.pdb
+C:\Users\Rebwa\Desktop\Projects\SohaNoteBook\SohaNotebook.Entities\obj\Debug\net5.0\ref\SohaNotebook.Entities.dll
